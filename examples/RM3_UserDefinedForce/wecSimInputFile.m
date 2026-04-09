@@ -56,6 +56,9 @@ waves.period = 8;                       % Wave Period [s]
 
 %% Body Data
 % Float
+%External force on Body 1
+F_ext_b1 = [0,0,5.0e6,0,0,0];
+
 body(1) = bodyClass('hydroData_Adam/rm3.h5');      
     % Create the body(1) Variable, Set Location of Hydrodynamic Data File 
     % and Body Number Within this File.   
